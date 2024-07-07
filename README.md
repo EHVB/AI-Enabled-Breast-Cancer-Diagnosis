@@ -16,11 +16,7 @@ This is a graduation project.
 
 ## Project Demo
 
-Check out the project demo video below:
-
-<div align="center">
-    <iframe width="560" height="315" src="https://youtu.be/a3z_srHvEcw?si=l6xZOS_LkSTwS_VQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+Check out the [project demo video](https://youtu.be/a3z_srHvEcw?si=l6xZOS_LkSTwS_VQ) on YouTube.
 
 ## Project Supervisor
 
