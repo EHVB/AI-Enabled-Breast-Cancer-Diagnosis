@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.headertool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.toolsbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+    background-color: gray;
+    width: 700px;
+    height: 30px;
+}
+
+
+.icontool,
+select {
+    background-color: transparent;
+    grid: auto;
+    width: 60px;
+    height: 25px;
+    position: relative;
+}
+
+.tool {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .headertool .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .headertool nav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+    }
+
+    .headertool .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav p {
+        font-size: 1.5rem;
+    }
+}
+
+.content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(26, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 0px 0px;
+    background-color: black;
+}
+
+
+.Navbar {
+    grid-area: 1/ 1 / 4 / 25;
+
+}
+
+
+.Viewers {
+    grid-area: 3/ 1 / 20 / 20;
+    position: relative;
+    height: 80vh;
+    width: 142vh;
+}
+
+.sidebarinput {
+    grid-area: 3 /22 / 21 / 27;
+    height: 100%;
+}
+
+.ThumbnailClasses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 17 /2 / 19 / 16;
+}
+
+
+option{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.editing{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    overflow: hidden;
+    width :100%;
+    height :100%;
+}
+
+
+.viewer-layout{
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-gap: 0px;
+    background-color: black;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}

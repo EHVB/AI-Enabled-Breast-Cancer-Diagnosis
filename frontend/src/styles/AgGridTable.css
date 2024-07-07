@@ -1,0 +1,55 @@
+.table-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.upload-button {
+    margin-bottom: 10px;
+    margin-left: 1200px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-icon {
+    margin-right: 5px;
+    width: 20px;
+
+    height: 20px;
+}
+
+.app-content {
+    transition: filter 0.3s ease-in-out;
+}
+
+.app-content.blur {
+    filter: blur(4px);
+}
+
+body {
+    background-color: rgb(190, 25, 25);
+    color: white;
+}
+
+.header-exam {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 60px; */
+    /* padding-left: 50px; */
+    /* margin: 20px; */
+}
+
+.ag-theme-material-dark .ag-root {
+    font-size: 17px; /* Adjust the font size as per your requirement */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ag-header-cell-text {
+    font-size: 17px; /* Adjust the font size as per your requirement */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+

@@ -1,0 +1,124 @@
+.sidebarinput {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+aside {
+    height: 100%;
+    width: 100%;
+    background-color: #1d1d1f;
+    color: #ecf0f1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 1;
+    padding: 10px;
+}
+
+.styled-input {
+    max-height: 250px;
+    min-height: 100px;
+    min-width: 150px;
+    height: 150px;
+    max-width: 100%;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.styled-input:focus {
+    border-color: #2ecc71;
+}
+
+.submit-button,
+.call-function-button {
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.submit-button:hover,
+.call-function-button:hover {
+    background-color: #2ecc71;
+}
+
+.tiny-paragraph {
+    margin-top: 10px;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-paragraph {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    margin-left: 5px;
+}
+
+#classification {
+    background-color: white;
+    width: 12vh;
+}
+
+#right-birads, #left-birads {
+    margin-left: 5px;
+    background-color: white;
+    width: 5vh;
+    text-align: center;
+}
+
+.birads {
+    margin-top: 40px;
+}
+
+.ai {
+    display: flex;
+    flex-direction: row;
+}
+
+.bi-rads {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-logo {
+    margin-top: 10px;
+    max-height: 20px;
+    width: auto;
+    filter: invert();
+}

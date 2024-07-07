@@ -1,0 +1,17 @@
+.h {
+    text-align: center;
+}
+
+/* Loading.css */
+.loading-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading-page img {
+    max-width: 700px;
+    height: auto;
+}

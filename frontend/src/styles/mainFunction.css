@@ -1,0 +1,90 @@
+.Viewers {
+    border: 2px solid #32384e;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.4);
+    left: 170px;
+    top: 50px;
+    height: 480px;
+    width: 900px;
+}
+
+.ThumbnailFirstChieldClass {
+    position: relative; /* Position the thumbnail container relatively */
+    width: 100%;
+    height: 120px;
+    margin: 7px;
+    border: 1px solid #5a5a5a;
+    overflow: hidden; /* Ensure thumbnail doesn't overflow */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    transition: border-color 0.3s; /* Add transition effect for border color change */
+}
+
+
+.ThumbnailFirstChieldClass:hover {
+    border-color: #4c4468; /* Change border color on hover */
+}
+
+.ThumbnailContainer {
+    position: fixed;
+    left: 16px;
+    top: 117px;
+    bottom: 0;
+    width: 155px;
+    background-color: #000000;
+    overflow-y: auto;
+    z-index: 1000;
+    overflow-x: hidden;
+}
+
+
+
+/* Change scrollbar color */
+.ThumbnailContainer::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Change scrollbar thumb color */
+.ThumbnailContainer::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+.ThumbnailClasses {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+    width: 150px;
+}
+
+.thumbnailName {
+    position: absolute; /* Position the name absolutely */
+    bottom: 5px; /* Adjust bottom position to stay within the thumbnail */
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    z-index: 1;
+}
+
+.selectedThumbnail {
+    border-color: #4c4468; /* Change border color for selected thumbnail */
+}
+
+.ThumbnailFirstChieldClass {
+    position: relative; /* Position the thumbnail container relatively */
+    width: 100%;
+    height: 120px;
+    margin: 7px;
+    border: 1px solid #5a5a5a;
+    overflow: hidden; /* Ensure thumbnail doesn't overflow */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    transition: border-color 0.3s; /* Add transition effect for border color change */
+}

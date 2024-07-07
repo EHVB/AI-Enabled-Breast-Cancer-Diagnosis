@@ -1,0 +1,45 @@
+.cornerstone-canvas {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#Mainviewer {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbailSecondChieldClass {
+    border-radius: 10px;
+}
+
+.MainViewer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.back-btn,
+.next-btn {
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.back-btn:hover,
+.next-btn:hover {
+    background-color: gray;
+}
+
+.next-btn {
+    right: 0px
+}
