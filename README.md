@@ -6,13 +6,13 @@ This is a graduation project.
 
 ## Team Members
 
-| Name             | Role                | Contact                  |
-|------------------|---------------------|--------------------------|
-| Mohamed Hashem   | AI Development      | johndoe@example.com      |
-| Ehab Kamal       | AI Development      | janesmith@example.com    |
-| Aya Sameh        | Web Development     | alicejohnson@example.com |
-| Aya Amr          | Web Development     | bobbrown@example.com     |
-| Ahmed Ashraf     | Web Development     | evedavis@example.com     |
+| Name             | Role                |
+|------------------|---------------------|
+| Mohamed Hashem   | AI Development      |
+| Ehab Kamal       | AI Development      |
+| Aya Sameh        | Web Development     |
+| Aya Amr          | Web Development     |
+| Ahmed Ashraf     | Web Development     |
 
 ## Project Demo
 
@@ -21,3 +21,11 @@ Check out the project demo video below:
 <div align="center">
     <iframe width="560" height="315" src="https://youtu.be/a3z_srHvEcw?si=l6xZOS_LkSTwS_VQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+## Project Supervisor
+
+This Project was under the supervision of Dr. Ahmed Ehab Mahmoud.
+
+## Sponsor
+
+This project is sponsored by **Astute Imaging**.
